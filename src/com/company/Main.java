@@ -35,7 +35,8 @@ public class Main {
             volumeAlcoList.add(alcogol);
             map.put(alcogol.getVolume(), volumeAlcoList);
         }
-       map.entrySet().stream().forEach(System.out::println);
+        map.entrySet().stream().forEach(System.out::println);
+
     }
 
     public static void showCollection(List<Alcogol> list) {
